@@ -1,0 +1,153 @@
+<!--
+Name: Deondre Williams
+Tutor: Christine Anuli 
+ID Number: 2307492
+Lab Activity: "Simple Café Website"
+Instructions: Create a mini website homepage for a café using HTML5 structure and basic CSS styling, practising layout, navigation, images, and lists.
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--Icon  Content Delivery Network (cdn) link-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" 
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!--Enternal stylSheet-->
+       <link rel="stylesheet" href="./stylesheet.css">
+        <title>
+            Simple Cafe
+        </title>
+    </head>
+    <body id="top">
+        
+        
+        <header>
+                <!-- Logo and Navigation -->
+            <nav>
+                <img id="logo" src="./Assets/Logo_design_-removebg-preview.png" alt="logo">
+                <a href="#welcome">Welcome</a>
+                <a href="#menu">Menu</a>
+                <a href="#contact">Contact</a>
+                
+            </nav>
+
+        </header>
+
+        <main>
+            <!-- Welcome Section -->
+            <section id="welcome" class="welcome-container">
+                <h1>Welcome to Simple Cafe</h1>
+                <p>Welcome to Simple Cafe — where every cup is brewed<br> with 
+                    care and every bite feels like home. Sit back, relax,<br>
+                     and enjoy the simple pleasures.</p>
+            </section>
+            <!-- Menu Section -->
+            <section id="menu" class="menu-grid-container">
+                <h2><i class="fa-solid fa-bars"></i>Menu</h2>
+                
+                <div class="food-menu-container menu-options-aligment">
+                    <h3>Grab n GO</h3>
+                    <h3>Fine Dine</h3>
+                    <ul>
+                        <li>Borito</li>
+                        <li>Slap Ya Mama </li>
+                        <li>Bread Sticks</li>
+                        <li>Hot Dog</li>
+                    </ul>
+                    
+                    <ul>
+                        <li>Chicken Alfredo</li>
+                        <li>Jerk Chicken Pasta</li>
+                        <li>Black Jack</li>
+                        <li>Burger</li>
+                    </ul>
+                </div>
+
+                <diV class="drink-menu-container menu-options-aligment">
+                <h3>Hot</h3>
+                <h3>Cold</h3>
+                <ul>
+                    <li>Cofee</li>
+                    <li>Latte</li>
+                    <li>Hot Coca</li>
+                    <li>Tea</li>
+                </ul>
+                
+                <ul>
+                    <li>Smoothie</li>
+                    <li>Milk Shake</li>
+                    <li>Soft Drink</li>
+                    <li>Ice Tea</li>
+                </ul>
+            </diV >
+            <div class="dessert-menu-container menu-options-aligment">
+            <h3>Deserts</h3>
+            <ul>
+                    <li>Croissant</li>
+                    <li>Red bread bean </li>
+                    <li>Fruit Cake</li>
+                    <li>Ice Cream</li>
+                    <li>Crapes</li>
+                </ul>
+            </div>
+
+            <div class="cake-menu-container menu-options-aligment">
+            <h3>Cake</h3>
+            <ul>
+                    <li>Chease cake</li>
+                    <li>Lemmon Drizzele</li>
+                    <li>Chocolate Fudge</li>
+                    <li>Vanella Sponge</li>
+                </ul>
+            </div>
+            <div class="pie-menu-container menu-options-aligment">
+            <h3>Pie</h3>
+            <ul>
+                    <li>Apple <sub>spiced</sub></li>
+                    <li>Pecan</li>
+                    <li>Pumpkin</li>
+                    <li>Blue Berry</li>
+                </ul>
+            </div>
+            </section >
+            <!--Contact section-->
+            <section id="contact" class="contact-grid-container">
+                <div class="contact-p">
+                    <p>Planning an event? Let Simple Cafe bring the flavor to you! Reach out to
+                        us for catering services and well be happy to make your special occasion
+                        even more memorable. </p>
+                    </div>
+
+                <div>
+                    <img src="../Assets/catering-1.png" alt="catering service picture">
+                    <img src="../Assets/catering-2.png" alt="catering service picture">
+                    <img src="../Assets/catering-3.jpeg" alt="catering service picture">
+                </div>
+                    <!--Icons-->
+                    <div class="icon">
+                        <a href="https://www.facebook.com/">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                        <a href="https://x.com/">
+                            <i class="fa-brands fa-square-x-twitter"></i>
+                        </a>
+                    <a href="https://www.instagram.com/">
+                        <i class="fa-brands fa-square-instagram"></i>
+                    </a>
+                    <a href="mailto: simplecafe@cafe.com">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                </div> 
+            </section>
+
+            </main>
+            <!--Footer section-->
+            <footer>
+                <p>&copy Simple Cafe| All Rights Reserved</p>
+            </footer>
+            
+            <a href="#top"> Back to top</a>
+        
+        
+    </body>
+</html>
